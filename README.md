@@ -6,7 +6,9 @@
 [Emmet](https://emmet.io/)-style syntactic sugar for
 [HyperScript](https://github.com/hyperhype/hyperscript)
 and
-[virtual-hyperscript](https://github.com/Raynos/virtual-hyperscript)
+[virtual-hyperscript](https://github.com/Raynos/virtual-hyperscript).
+
+Inspired by [HtmlElement](https://github.com/spatie/html-element).
 
 ## Examples
 
