@@ -1,0 +1,46 @@
+{
+    "name": "emmet-hyperscript",
+    "version": "1.0.0",
+    "description": "Emmet-style syntactic sugar for HyperScript and virtual-hyperscript",
+    "keywords": [
+        "hyperscript",
+        "emmet",
+        "virtual-hyperscript",
+        "virtual-dom",
+        "vdom"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "lint": "lints",
+        "pretest": "npm run lint",
+        "coverage": "nyc --all --include=src --reporter=text --reporter=text-summary --reporter=html mocha",
+        "test": "npm run coverage",
+        "mocha": "mocha",
+        "watch": "mocha --watch"
+    },
+    "main": "src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EvgenyOrekhov/emmet-hyperscript.git"
+    },
+    "author": {
+        "name": "Evgeny Orekhov",
+        "url": "https://plus.google.com/+ЕвгенийОрехов"
+    },
+    "bugs": {
+        "url": "https://github.com/EvgenyOrekhov/emmet-hyperscript/issues"
+    },
+    "homepage": "https://github.com/EvgenyOrekhov/emmet-hyperscript#readme",
+    "files": [
+        "src/"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "eslint-config-hardcore": "^3.1.1",
+        "hyperscript": "^2.0.2",
+        "lints": "^14.0.0",
+        "mocha": "^3.5.0",
+        "nyc": "^11.1.0"
+    }
+}

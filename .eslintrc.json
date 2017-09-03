@@ -1,0 +1,14 @@
+{
+    "extends": "hardcore",
+
+    "env": {
+        "node": true
+    },
+
+    "rules": {
+        "complexity": [
+            "error",
+            5
+        ]
+    }
+}
