@@ -2,8 +2,15 @@
     "language": "node_js",
 
     "node_js": [
-        "stable"
+        "stable",
+        "6.0"
     ],
+
+    "matrix": {
+        "allow_failures": [
+            {"node_js": "6.0"}
+        ]
+    },
 
     "after_success": [
         "npm install -g codeclimate-test-reporter",
