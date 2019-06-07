@@ -36,11 +36,11 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "chai": "^4.1.2",
-        "eslint-config-hardcore": "^4.0.1",
+        "chai": "^4.2.0",
+        "eslint-config-hardcore": "^5.3.1",
         "hyperscript": "^2.0.2",
-        "lints": "^17.0.0",
-        "mocha": "^5.2.0",
-        "nyc": "^12.0.2"
+        "lints": "^18.0.0",
+        "mocha": "^6.1.4",
+        "nyc": "^14.1.1"
     }
 }
