@@ -1,11 +1,9 @@
 /*jslint node */
-/*eslint func-names: "off" */
 
 "use strict";
 
 const {describe, it} = require("mocha");
 const {expect} = require("chai");
-
 const hyperscript = require("hyperscript");
 
 const makeEh = require("../src");
