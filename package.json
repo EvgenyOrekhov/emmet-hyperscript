@@ -39,7 +39,7 @@
         "chai": "^4.2.0",
         "eslint-config-hardcore": "^10.2.0",
         "hyperscript": "^2.0.2",
-        "lints": "^18.2.0",
+        "lints": "^18.2.1",
         "mocha": "^7.1.1",
         "nyc": "^15.0.0"
     },
