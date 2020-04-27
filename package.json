@@ -40,7 +40,7 @@
         "eslint-config-hardcore": "^10.3.0",
         "hyperscript": "^2.0.2",
         "lints": "^18.2.1",
-        "mocha": "^7.1.1",
+        "mocha": "^7.1.2",
         "nyc": "^15.0.1"
     },
     "engines": {
